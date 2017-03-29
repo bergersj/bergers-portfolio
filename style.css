@@ -37,7 +37,7 @@ body {
 }
 
 .resumeNav h3 {
-  padding-right: 3px;
+  padding-right: 6px;
 }
 
 .projectsNav {
@@ -115,9 +115,11 @@ body {
   font-family: 'Rokkitt', serif;
   height: 350px;
   width: 450px;
-  color: rgb(194, 200, 201);
+  color: rgba(0, 0, 0, 0.65);
+  color: black;
   letter-spacing: .5px;
-  background: rgba(0, 0, 0, 0.65);
+  background: rgb(194, 200, 201);
+  background-color: rgba(194, 200, 201, 0.5);
   padding: 5px;
   margin-left: 30%;
 }
@@ -127,4 +129,11 @@ body {
   display: inline-block;
   text-decoration: none;
   color: rgb(194, 200, 201);
+}
+
+.resume-doc {
+  margin-left: 25%;
+  height: 400px;
+  width: 600px;
+  border: solid 6px rgba(194, 200, 201, 0.5);
 }

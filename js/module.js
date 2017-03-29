@@ -15,6 +15,10 @@ app.config(function($routeProvider, $locationProvider){
   .when('/projects', {
     controller: 'portController',
     templateUrl: 'views/projects.html'
+  })
+  .when('/', {
+    controller: 'portController',
+    templateUrl: 'views/landing.html'
   });
 
 $locationProvider.hashPrefix('');

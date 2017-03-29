@@ -1,6 +1,7 @@
 body {
   background-image: url("https://static1.squarespace.com/static/56babdc22eeb81df69a5e685/57952fc9e6f2e155ae93f120/57953018e4fcb5084392d502/1469394998392/IMG_4235.jpg?format=1000w");
   background-size: cover;
+  background-repeat: no-repeat;
   font-family: 'Amatic SC', cursive;
   letter-spacing: .5px;
 }
@@ -98,4 +99,9 @@ body {
 .aboutPage {
   height: 100%;
   width: 100%;
+}
+
+.facePic {
+  height: 150px;
+  width: 100px;
 }

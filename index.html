@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bergers Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body ng-app="portMod">
+    <a href="#/about" class="aboutNav">
+        <h3>about</h3>
+    </a>
+
+    <a href="#/resume" class="resumeNav">
+        <h3>resume</h3>
+    </a>
+
+    <a href="#/projects" class="projectsNav">
+        <h3>projects</h3>
+    </a>
+
+    <div class="frontName">
+      <h3 id="myName">Joshua Bergers</h3>
+      <h6 id="fed">front-end developer</h6>
+    </div>
+
+    <ng-view></ng-view>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.min.js"></script>
+    <script src="js/module.js"></script>
+    <script src="js/portController.js"></script>
+  </body>
+</html>

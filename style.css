@@ -1,0 +1,58 @@
+body {
+  background-image: url("https://static1.squarespace.com/static/56babdc22eeb81df69a5e685/57952fc9e6f2e155ae93f120/57953018e4fcb5084392d502/1469394998392/IMG_4235.jpg?format=1000w");
+  background-size: cover;
+}
+
+.aboutNav {
+  text-align: center;
+  position: fixed;
+  background-color: rgba(45, 42, 43, 0.93);
+  color: white;
+  text-decoration: none;
+  height: 150px;
+  width: 150px;
+  margin-left: .3%;
+
+}
+
+.resumeNav {
+  text-align: center;
+  position: fixed;
+  background-color: rgba(45, 42, 43, 0.96);
+  color: white;
+  text-decoration: none;
+  height: 300px;
+  width: 150px;
+  margin-right: .3%;
+  margin-left: 85%
+}
+
+.projectsNav {
+  text-align: center;
+  position: fixed;
+  background-color: rgba(45, 42, 43, 0.93);
+  color: white;
+  text-decoration: none;
+  height: 100px;
+  width: 500px;
+  bottom: 3px;
+  margin-top: 35%;
+  margin-left: 4%
+}
+
+.frontName {
+  padding-top: 250px;
+}
+
+#myName {
+  padding-left: 30px;
+}
+
+#fed {
+  padding-left: 60px;
+}
+
+.aboutPage {
+  height: 100%;
+  width: 100%;
+}

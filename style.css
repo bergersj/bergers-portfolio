@@ -1,10 +1,12 @@
 body {
   background-image: url("https://static1.squarespace.com/static/56babdc22eeb81df69a5e685/57952fc9e6f2e155ae93f120/57953018e4fcb5084392d502/1469394998392/IMG_4235.jpg?format=1000w");
   background-size: cover;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: .5px;
 }
 
 .aboutNav {
-  text-align: center;
+  text-align: right;
   position: fixed;
   background-color: rgba(45, 42, 43, 0.93);
   color: white;
@@ -12,11 +14,16 @@ body {
   height: 150px;
   width: 150px;
   margin-left: .3%;
+  font-size: 20pt;
+}
 
+.aboutNav h3 {
+  margin-top: 60%;
+  padding-right: 5px;
 }
 
 .resumeNav {
-  text-align: center;
+  text-align: right;
   position: fixed;
   background-color: rgba(45, 42, 43, 0.96);
   color: white;
@@ -24,11 +31,16 @@ body {
   height: 300px;
   width: 150px;
   margin-right: .3%;
-  margin-left: 85%
+  margin-left: 85%;
+  font-size: 20pt;
+}
+
+.resumeNav h3 {
+  padding-right: 3px;
 }
 
 .projectsNav {
-  text-align: center;
+  text-align: left;
   position: fixed;
   background-color: rgba(45, 42, 43, 0.93);
   color: white;
@@ -37,19 +49,50 @@ body {
   width: 500px;
   bottom: 3px;
   margin-top: 35%;
-  margin-left: 4%
+  margin-left: 4%;
+  font-size: 20pt;
+}
+
+.projectsNav h3 {
+  padding-left: 10px;
+  margin-top: 0;
 }
 
 .frontName {
-  padding-top: 250px;
+  padding-top: 50px;
+  padding-left: 30%;
+  color: rgb(60, 64, 66);
 }
 
 #myName {
   padding-left: 30px;
+  padding-bottom: 0;
+  margin-bottom: -46px;
+  font-size: 50pt;
+  font-weight: bolder;
+  animation-name: nameMove;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes nameMove {
+  from {padding-left: 30px;}
+  to {padding-left: 110px;}
 }
 
 #fed {
-  padding-left: 60px;
+  padding-left: 270px;
+  font-size: 24pt;
+  font-weight: bolder;
+  margin-top: 22px;
+  animation-name: fedMove;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fedMove {
+    from {padding-left: 270px;}
+    to {padding-left: 200px;}
 }
 
 .aboutPage {

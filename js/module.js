@@ -16,6 +16,10 @@ app.config(function($routeProvider, $locationProvider){
     controller: 'portController',
     templateUrl: 'views/projects.html'
   })
+  .when('/contact', {
+    controller: 'portController',
+    templateUrl: 'views/contact.html'
+  })
   .when('/', {
     controller: 'portController',
     templateUrl: 'views/landing.html'

@@ -1,6 +1,7 @@
 body {
   background-image: url("https://static1.squarespace.com/static/56babdc22eeb81df69a5e685/57952fc9e6f2e155ae93f120/57953018e4fcb5084392d502/1469394998392/IMG_4235.jpg?format=1000w");
   background-size: cover;
+  background-position: fixed;
   background-repeat: no-repeat;
   font-family: 'Amatic SC', cursive;
   letter-spacing: .5px;
@@ -95,6 +96,7 @@ body {
 }
 
 .frontName {
+  font-family: 'Amatic SC', cursive;
   padding-top: 50px;
   padding-left: 30%;
   color: rgb(60, 64, 66);
@@ -103,7 +105,7 @@ body {
 #myName {
   padding-left: 30px;
   padding-bottom: 0;
-  margin-bottom: -46px;
+  margin-bottom: -37px;
   font-size: 50pt;
   font-weight: bolder;
   animation-name: nameMove;
@@ -179,15 +181,16 @@ body {
 
 .project {
   height: 200px;
-  width: 500px;
+  width: 650px;
   font-family: 'Rokkitt', serif;
   color: rgba(0, 0, 0, 0);
   letter-spacing: .5px;
   background-color: rgba(194, 200, 201, 0.0);
   padding: 5px;
-  margin-left: 18%;
+  margin-left: 10%;
   margin-bottom: 1%;
   display: flex;
+  position: relative;
 }
 
 .project img {
@@ -201,9 +204,17 @@ body {
   color: black;
 }
 
-.project p {
-  padding-left: 5px;
+@media screen and (-webkit-min-device-pixel-ratio: 1) {
+  .project p {
+    position: relative; /* works in chrome */
+    margin-left: 1%;
+  }
+
+/* Safari only */ .project p:not(:root:root) {
+        position: absolute; /* works in safari */
+     }
 }
+
 
 .project:hover {
   color: black;
@@ -211,9 +222,6 @@ body {
   box-shadow: 5px 5px 25px 1px rgba(0,0,0,.5);
 }
 
-.project:hover + img {
-  box-shadow: none;
-}
 
 .project h3 {
   z-index: 5;
@@ -223,5 +231,24 @@ body {
 }
 
 #privy {
-  color: rgb(47, 48, 48);
+  color: black;
+}
+
+body a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+#projectView {
+  top: 0;
+  bottom:0;
+  position:fixed;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  margin-left: 2%;
+  width: 2000px;
+}
+
+#firstProject {
+  margin-top: 50px;
 }

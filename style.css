@@ -95,6 +95,21 @@ body {
   bottom: 28px;
 }
 
+.contactNav {
+  position: fixed;
+  bottom: -5px;
+  margin-left: 75%;
+  text-decoration: none;
+  color: rgba(45, 42, 43, 0.93);
+}
+
+.contactNav h3 {
+  font-family: 'Rokkitt', serif;
+  color: rgba(45, 42, 43, 0.93);
+  text-decoration: none;
+  font-size: 45pt;
+}
+
 .frontName {
   font-family: 'Amatic SC', cursive;
   padding-top: 50px;
@@ -251,4 +266,35 @@ body a:hover {
 
 #firstProject {
   margin-top: 50px;
+}
+
+.contactPage {
+  text-align: -webkit-center;
+  padding: 5px;
+  color: black;
+  font-family: 'Rokkitt', serif;
+}
+
+.contactPage h3 {
+  font-family: 'Rokkitt', serif;
+  color: rgba(45, 42, 43, 0.93);
+  font-size: 25pt;
+}
+
+.contactPage h1 {
+  font-size: 30pt;
+}
+
+.contactPage span {
+  padding: 5px;
+  background-color: rgba(194, 200, 201, 0.5);
+}
+
+.contactNav span {
+  padding: 5px;
+  background-color: rgba(194, 200, 201, 0.25);
+}
+
+.contactPage span:hover {
+  background-color: rgba(194, 200, 201, .9);
 }

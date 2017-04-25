@@ -298,3 +298,150 @@ body a:hover {
 .contactPage span:hover {
   background-color: rgba(194, 200, 201, .9);
 }
+
+@media(max-width:920px){
+  .nav h3 {
+    font-family: 'Rokkitt', serif;
+    color: white;
+  }
+
+  .contactNav span {
+    background-color: rgba(235, 240, 242, 0.00);
+    padding: none;
+  }
+
+  body {
+    background-image: url("https://static1.squarespace.com/static/56babdc22eeb81df69a5e685/57952fc9e6f2e155ae93f120/57953025197aea34ace3c2d5/1469395000543/IMG_4513.jpg?format=500w");
+    background-size: cover;
+  }
+
+  .nav h3 {
+    font-size: 20pt;
+  }
+
+  .projectsNav h3{
+
+  }
+
+  .aboutNav h3{
+
+  }
+
+  .resumeNav h3{
+
+  }
+
+  .contactNav h3{
+
+  }
+
+  .nav {
+    top: 0;
+    padding: 0px;
+    margin-top: 5px;
+    width: 15%;
+    height: 10%;
+    background: none;
+  }
+
+  .nav h3 {
+    margin-top: 3px;
+    display: inline-grid;
+    font-size: 20pt;
+  }
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 585px) {
+  body {
+    background-image: none;
+  }
+
+  .projectsNav {
+    margin-left: 88px;
+  }
+
+  .aboutNav {
+    margin-left: 5px;
+  }
+
+  .resumeNav {
+    margin-left: 208px;
+  }
+
+  .contactNav {
+    margin-left: 307px;
+  }
+
+  .contactNav h3 {
+    padding-top: 8px;
+  }
+
+  .nav {
+    top: 0;
+    padding: 5px;
+    margin-top: 5px;
+    width: 15%;
+    height: 10%;
+  }
+
+  .nav h3 {
+    margin-top: 3px;
+    display: inline-grid;
+    color: rgba(45, 42, 43, 0.93);
+    font-size: 12pt;
+    background-color: rgba(255, 255, 255, 1);
+  }
+
+  .aboutPage p {
+    margin: 0px;
+    margin-top: 20%;
+    width: 80%;
+    margin-left: 10%;
+    height: 90%;
+  }
+
+  #facepic {
+    margin-left: 30%;
+    margin-top: 10px;
+  }
+
+  .contactPage {
+    margin-top: 20%;
+  }
+
+  #resumeDiv {
+    height: 770px;
+    width: 500px;
+    margin-left: 5%;
+    margin-top: 60px;
+  }
+
+  .resume-doc {
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-left: 0px;
+  }
+
+  .project {
+    margin-left: 1%;
+    margin-top: 55px;
+    height: 350px;
+    width: 300px;
+    color: black;
+    background-color: rgba(194, 200, 201, 0.5);
+    box-shadow: 5px 5px 25px 1px rgba(0,0,0,.5);
+  }
+
+  .project img {
+    width: 275px;
+    height: 175px;
+  }
+
+  .project p {
+    margin-top: 180px;
+    margin-left: -268px;
+  }
+}

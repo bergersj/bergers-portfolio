@@ -7,30 +7,31 @@
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rokkitt" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="jquery-3.2.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   </head>
 
   <body ng-app="portMod" ng-controller="portController">
     <div class="row">
-    <a href="#/about" class="aboutNav" ng-click="aboutClick()">
+    <a href="#/about" class="aboutNav nav" ng-click="aboutClick()">
         <h3>about</h3>
         <!-- <h1>ABOUT</h1> -->
     </a>
 
-    <a href="#/resume" class="resumeNav">
+    <a href="#/resume" class="resumeNav nav">
         <h3>resume</h3>
         <!-- <h1>RESUME</h1> -->
     </a>
 
-    <a href="#/projects" class="projectsNav">
+    <a href="#/projects" class="projectsNav nav">
         <h3>projects</h3>
         <!-- <h1>PROJECTS</h1> -->
     </a>
 
-    <a href="#/contact" class="contactNav">
-        <h3><span>Contact</span></h3>
+    <a href="#/contact" class="contactNav nav">
+        <h3><span>contact</span></h3>
     </a>
 
     <ng-view></ng-view>

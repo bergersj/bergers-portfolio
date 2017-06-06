@@ -315,38 +315,38 @@ body a:hover {
     background-size: cover;
   }
 
-  .nav h3 {
-    font-size: 20pt;
+  .projectsNav {
+    margin-left: 88px;
   }
 
-  .projectsNav h3{
-
+  .aboutNav {
+    margin-left: 5px;
   }
 
-  .aboutNav h3{
-
+  .resumeNav {
+    margin-left: 208px;
   }
 
-  .resumeNav h3{
-
+  .contactNav {
+    margin-left: 307px;
   }
 
-  .contactNav h3{
-
+  .contactNav h3 {
+    padding-top: 8px;
   }
 
   .nav {
     top: 0;
-    padding: 0px;
+    padding: 5px;
     margin-top: 5px;
     width: 15%;
     height: 10%;
-    background: none;
   }
 
   .nav h3 {
     margin-top: 3px;
     display: inline-grid;
+    color: white;
     font-size: 20pt;
   }
 
